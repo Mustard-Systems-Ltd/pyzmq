@@ -108,6 +108,7 @@ new_in = {
         'HANDSHAKE_IVL',
         'XPUB_NODROP',
         'SOCKS_PROXY',
+        'XPUB_VERBOSE_UNSUBSCRIBE',
         
         # msg opts
         'SRCFD',
@@ -320,6 +321,7 @@ int_sockopt_names = [
     'GSSAPI_PLAINTEXT',
     'HANDSHAKE_IVL',
     'XPUB_NODROP',
+    'XPUB_VERBOSE_UNSUBSCRIBE',
 ]
 
 switched_sockopt_names = [

@@ -113,6 +113,7 @@ cdef extern from "zmq.h" nogil:
     enum: ZMQ_TCP_KEEPALIVE_INTVL
     enum: ZMQ_DELAY_ATTACH_ON_CONNECT
     enum: ZMQ_XPUB_VERBOSE
+    enum: ZMQ_XPUB_VERBOSE_UNSUBSCRIBE
     enum: ZMQ_EVENTS
     enum: ZMQ_TYPE
     enum: ZMQ_LINGER
